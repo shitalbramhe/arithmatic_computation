@@ -39,3 +39,6 @@ echo "Array[$i]:"${arr1[i]}
 done
 echo "decending sorted array";
 printf "%s\n" "${arr1[@]}" | sort -nr
+
+echo "ascending sorted array";
+printf "%s\n" "${arr1[@]}" | sort -n
