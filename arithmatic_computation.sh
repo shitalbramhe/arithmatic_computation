@@ -4,3 +4,6 @@ echo "Take three inputs a,b,c :"
 read a b c
 equ1=$(( $a + $b * $c ))
 echo "first equation" $equ1;
+
+qu2=$(( $a * $b + $c ))
+echo "second equation" $equ2;
